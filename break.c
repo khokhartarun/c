@@ -9,11 +9,11 @@ int main (){
     {
         if( i== 30){
             // break; // exit from the loop 
-            continue;
+            continue;  // only 30 value is not printing 
         }
         printf( " The value of i is %d\n",i);
     }
-    printf( " Value is 30 -  Loop closed ");    // printing the breaking point 
+    printf( " Value is 30 -  Loop itrate ");    // printing the breaking point 
 
     return 0 ; 
     
